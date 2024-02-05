@@ -9,49 +9,46 @@ public class KeyStrokes implements KeyListener {
 	@Override
 	public void keyTyped(KeyEvent e) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void keyPressed(KeyEvent e) {
-		
+
 		int code = e.getKeyCode();
-		
-		
-		if (code == KeyEvent.VK_W ) {
+
+		if (code == KeyEvent.VK_W) {
 			upPressed = true;
 		}
-		if (code == KeyEvent.VK_A ) {
-			leftPressed = true;	
+		if (code == KeyEvent.VK_A) {
+			leftPressed = true;
 		}
-		if (code == KeyEvent.VK_R ) {
+		if (code == KeyEvent.VK_R) {
 			downPressed = true;
 		}
-		if (code == KeyEvent.VK_S ) {
+		if (code == KeyEvent.VK_S) {
 			rightPressed = true;
 		}
-		
+
 	}
 
 	@Override
 	public void keyReleased(KeyEvent e) {
-		
-int code = e.getKeyCode();
-		
-		
-		if (code == KeyEvent.VK_W ) {
+
+		int code = e.getKeyCode();
+
+		if (code == KeyEvent.VK_W) {
 			upPressed = false;
 		}
-		if (code == KeyEvent.VK_A ) {
-			leftPressed = false;	
+		if (code == KeyEvent.VK_A) {
+			leftPressed = false;
 		}
-		if (code == KeyEvent.VK_R ) {
+		if (code == KeyEvent.VK_R) {
 			downPressed = false;
 		}
-		if (code == KeyEvent.VK_S ) {
+		if (code == KeyEvent.VK_S) {
 			rightPressed = false;
 		}
 	}
 
-	
 }
