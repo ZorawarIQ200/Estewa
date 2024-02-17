@@ -1,6 +1,6 @@
 import processing.core.*;
 
-public class Main extends PApplet {
+public class Main extends PApplet { 
     int tileSize = 16;
     int maxScreenSizeCol = 32;
     int maxScreenSizeRow = 32;
