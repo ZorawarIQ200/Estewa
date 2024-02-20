@@ -16,7 +16,7 @@ public class Main extends PApplet {
     boolean playerGoingRight = true;
     int badGuyX = 192; // Initial x-coordinate of badGuy
     int[][] mapArray = new int[maxScreenSizeCol][maxScreenSizeRow]; //innit the aarray
-    PImage grass, grass2, path, tree, wall, badGuyRight, badGuyLeft, playerLeft, playerRight; // Declare all the images
+    PImage grass, grass2, path, tree, wall, badGuyRight, badGuyLeft, playerLeft, playerRight, wizard; // Declare all the images
     Player player;
     SmallBoss smallBoss;
 
@@ -31,7 +31,7 @@ public class Main extends PApplet {
     public void setup() {
         playerRight = loadImage("Player/playerRight.png");
         playerLeft = loadImage("Player/playerLeft.png");
-//        wizard = loadImage();
+        wizard = loadImage("Player/ez.png");
         grass = loadImage("Maps/grass1.png");
         grass2 = loadImage("Maps/grass2.png");
         path = loadImage("Maps/pathVertical.png");
